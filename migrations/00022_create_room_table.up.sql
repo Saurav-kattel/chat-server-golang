@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS rooms (
+	id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+	is_group BOOLEAN DEFAULT FALSE
+)
