@@ -1,4 +1,4 @@
-module x-clone.com/ws-server
+module x-clone.com/chat-server
 
 go 1.22.2
 
